@@ -1,1 +1,1 @@
-import ALSHBG
+import .Telegram
