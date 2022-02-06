@@ -15,5 +15,6 @@ def check():
 	except:
 			ok = jsonify(ok= True,status="Available",user=user)
 			
-	return ok			
-app.run()
+	return ok
+if __name__ == "__main__":
+	app.run()
